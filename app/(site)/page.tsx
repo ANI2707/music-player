@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import ListItem from "@/components/ListItem";
+import { FaHeart } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -10,11 +11,11 @@ export default function Home() {
           Welcome back
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3 mt-4">
-          {/* <ListItem 
-            image="/assets/liked.jpg"
+          <ListItem 
+            // image="/assets/liked.jpg"
             name="Liked Songs"
             href="liked"
-          /> */}
+          />
         </div>
       </Header>
       <div className="mt-2 mb-7 px-6">
