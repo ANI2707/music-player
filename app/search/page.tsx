@@ -1,3 +1,6 @@
+export const revalidate=0; //this line is for the songs so we dont want to cache our previous states
+
+
 import getSongsByTitle from "@/actions/getSongsByTitle";
 import Header from "@/components/Header";
 import SearchInput from "@/components/SearchInput";
